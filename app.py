@@ -8,7 +8,7 @@ import numpy as np
 pipe=pickle.load(open(r"pipe.pkl",'rb'))
 df = pickle.load(open(r"mobile_df.pkl",'rb'))
 
-st.title("Smartphone Price Predictor")
+st.title("Mobile Price Prediction")
 
 # brand
 Company = st.selectbox("Select the Model",['ASUS','Google', 'Infinix', 'IQOO', 'LAVA', 'Micromax', 'Mi', 'MOTOROLA', 'Nokia', 'Nothing', 'OPPO', 'OnePlus', 'POCO', 'Realme', 'REDMI', 'SAMSUNG', 'Tecno', 'itel', 'vivo', 'Xiaomi'])
